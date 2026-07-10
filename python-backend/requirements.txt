@@ -1,0 +1,8 @@
+flask
+flask-cors
+opencv-contrib-python
+numpy
+pandas
+twilio
+python-dotenv
+pillow

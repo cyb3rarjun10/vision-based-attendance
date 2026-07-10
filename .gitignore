@@ -1,0 +1,39 @@
+# Dependency directories
+node_modules/
+venv/
+.venv/
+
+# Environment files and credentials
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build output
+dist/
+build/
+*.log
+
+# Database files
+*.db
+*.db-journal
+*.sqlite3
+
+# Python caches and compiles
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Datasets and Local ML weights
+python-backend/dataset/
+python-backend/trainer/trainer.yml
+python-backend/trainer/labels.pkl
+python-backend/attendance.csv
+
+# OS files
+.DS_Store
+Thumbs.db
+
+frontend/
